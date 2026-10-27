@@ -6,9 +6,7 @@ public class Alexandru2 {
         System.out.println("Introdu numele tau: ");
         String nume = input.nextLine();
         System.out.println("Salut " + nume + "!");
+        input.close();
     }
-    /*
-    CReeaza un program care intreaba utilizatorul numele
-    si afiseaza SALUT + NUMELE UTILIZATORULUI
-     */
+
 }
